@@ -1,0 +1,35 @@
+.traffic_lights {
+  margin: auto;
+  width: 150px;
+  height: 300px;
+  padding: 10px 0;
+  padding-bottom: 0;
+  display: flex;
+  flex-flow: column wrap;
+  justify-content: space-between;
+  align-items: center;
+  background-color: black;
+  border-radius: 10rem;
+}
+.traffic_light {
+  width: 80px;
+  height: 80px;
+  border-radius: 100%;
+  border: 5px solid lightgrey;
+  background-color: grey;
+}
+.traffic_off {
+  background-color: rgb(236, 227, 227);
+}
+.traffic_red {
+  background-color: red;
+}
+.traffic_green {
+  background-color: green;
+}
+.traffic_yellow {
+  background-color: yellow;
+}
+.traffic_btn {
+  border-radius: 3rem;
+}
